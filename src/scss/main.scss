@@ -1,0 +1,15 @@
+@import './helpers';
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+
+  h1 {
+    font-weight: bold;
+  }
+}
+
+.header {
+  @include header-title(blue, pink);
+  display: flex;
+}

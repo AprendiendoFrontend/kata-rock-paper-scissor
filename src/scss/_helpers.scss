@@ -1,0 +1,7 @@
+@mixin header-title ($background: black, $color: white) {
+  background: $background;
+  color: $color;
+  font-size: 32px;
+  padding: 12px;
+  text-shadow: 1px 1px 1px black;
+}
